@@ -106,6 +106,25 @@ export default StyleSheet.create({
         shadowOpacity:0.15,
         shadowRadius:20,	shadowColor: DARK_GRAY,
         shadowOffset: { height: 10, width: 0 }
+    },
+    star:{
+        fontFamily: ICON_FONT,
+		color: STAR_ACTIONS
+    },
+    like: {
+        fontSize:25,
+        fontFamily:ICON_FONT,
+        color:LIKE_ACTIONS,
+    },
+    dislike:{
+        fontSize:25,
+        fontStyle:ICON_FONT,
+        color:LIKE_ACTIONS
+    },
+    flash:{
+        fontFamily:ICON_FONT,
+        color:FLASH_ACTIONS
     }
+
 
 })
