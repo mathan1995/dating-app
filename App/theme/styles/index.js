@@ -28,6 +28,7 @@ const DIMENSION_HEIGHT=Dimensions.get('window').height;
 
 
 export default StyleSheet.create({
+/*============STYLE MODULES==================*/
 // COMPONENT - CARD ITEM
     ContainerCardItem:{
         backgroundColor:WHITE,
@@ -124,7 +125,23 @@ export default StyleSheet.create({
     flash:{
         fontFamily:ICON_FONT,
         color:FLASH_ACTIONS
-    }
+    },
+    /*============STYLE MODULES==================*/
+    //COMPONENT - CITY 
 
-
+    city:{
+        backgroundColor:WHITE,
+        padding:10,
+        borderRadius:20,
+        width:90,
+        shadowOpacity:0.05,
+        shadowRadious:10,
+        shadowColor:BLACK,
+        shadowRadius:{height:0, width:0}
+    },
+    cityText:{
+        fontFamily:ICON_FONT,
+        color:DARK_GRAY,
+        fontSize:13
+    },
 })
